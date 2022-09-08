@@ -1,15 +1,6 @@
 /*Implement a method to calculate the size of a binary tree. */
 package com.rakesh;
 
-class Node{
-	int key;
-	Node left, right;
-	
-	public Node(int val) {
-		this.key = val;
-		this.left = this.right = null;
-	}
-}
 class BinaryTree{
 	Node root;
 	
