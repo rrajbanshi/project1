@@ -1,0 +1,12 @@
+/* .navbar-expand-lg .navbar-nav {
+justify-content: right  !important;
+} */
+
+@media (min-width: 992px){
+    .navbar-expand-lg {
+       justify-content:space-between;
+    }
+}
+.logout{
+    cursor: pointer;
+}

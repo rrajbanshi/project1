@@ -1,0 +1,47 @@
+<app-header></app-header>
+<hr>
+<div class="container">
+    <div class="row">
+        <div *ngFor = "let item of items" class="col-sm-6 col-md-4 col-lg-3">
+            <!-- A simple card -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{item.imageUrl}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.hotelName}}</h5>
+                  <p><span class="typeOfItem">{{item.typeOfItem}}</span> <span class = "rating">{{item.rating}}</span></p>
+                  <p>Rs. {{item.price}}</p>
+                  <p>{{item.itemName}}</p>
+                  <a style="margin-right: 2px;color: white;"  class="btn btn-primary"
+                   data-toggle="modal" data-target="#exampleModal"
+                   (click) = "AddItemToCart(item)"
+                   >Add to cart</a>
+                  <a href="#" class="btn btn-primary">buy/order</a>
+                  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Are you sure you want to Add this item to cart?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- <p style="font-size : 20px">{{_cartService.cartData.itemName}} |  {{_cartService.cartData.price|currency:"INR":"symbol"}}</p> -->
+        <input type="text" style="width: 100%;" value='{{_cartService.cartData.itemName | titlecase}} |  {{_cartService.cartData.price|currency:"INR":"symbol"}}' readonly><br><br> 
+        <p>click on add to cart to proceed further</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal" (click) = "itemAddedToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</div>

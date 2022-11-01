@@ -1,0 +1,28 @@
+  <app-header></app-header>
+	<div class="container">
+		<h2>Register to Food Express</h2>
+	<form [formGroup] = "signupForm" (ngSubmit) = "onFormSubmit()">
+		<div class="form-group">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" id="exampleInputfirstname"  formControlName = "firstName" name="firstname">
+  </div>
+   <div class="form-group">
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputlastname" formControlName = "lastName" name="lastname">
+  </div>
+  <div class="form-group">
+    <label for="phoneno">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputphoneno" formControlName = "phoneNumber" name="phoneno">
+  </div>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" formControlName = "email" aria-describedby="emailHelp" name="email">
+  </div>
+  <div class="form-group">
+    <label for="Password">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword" formControlName = "password" name="password">
+  </div> 
+  <button type="submit" class="btn btn-primary" name="create">Sign up</button>
+</form>
+<a href="#" routerLink = "/signin">Already a member ? click to signin</a>
+</div>

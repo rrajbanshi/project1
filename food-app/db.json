@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signup": [
+    {
+      "firstName": "rakesh",
+      "lastName": "rajbanshi",
+      "phoneNumber": "9853573382",
+      "email": "merakerr@gmail.com",
+      "password": "rakesh",
+      "id": 1
+    },
+    {
+      "firstName": "raju",
+      "lastName": "raju",
+      "phoneNumber": "45454545445",
+      "email": "raju@xyz.com",
+      "password": "raju",
+      "id": 2
+    },
+    {
+      "firstName": "abc",
+      "lastName": "abc",
+      "phoneNumber": "67676",
+      "email": "abc@gmail.com",
+      "password": "abcd",
+      "id": 3
+    },
+    {
+      "firstName": "surendra",
+      "lastName": "dhakad",
+      "phoneNumber": "676767",
+      "email": "surendra@gmail.com",
+      "password": "surendra",
+      "id": 4
+    }
+  ],
+  "items": [
+    {
+      "hotelName": "Tandoor Point",
+      "itemName": "chicken Kadai",
+      "typeOfItem": "Muglai North India",
+      "rating": 4.5,
+      "price": 160,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    },
+    {
+      "hotelName": "Tandoor Point",
+      "itemName": "chicken chilly",
+      "typeOfItem": "Muglai North India",
+      "rating": 4.5,
+      "price": 150,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    },
+    {
+      "hotelName": "meghna biryani",
+      "itemName": "special biryani",
+      "typeOfItem": "North Indian masala biryani",
+      "rating": 4.5,
+      "price": 365,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    },
+    {
+      "hotelName": "Pizza Hut",
+      "itemName": "classic corn",
+      "typeOfItem": "North Indian",
+      "rating": 4.5,
+      "price": 300,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    },
+    {
+      "hotelName": "Domino",
+      "itemName": "margherita pizza",
+      "typeOfItem": " North Indian",
+      "rating": 4.5,
+      "price": 450,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    },
+    {
+      "hotelName": "Tandoor Point",
+      "itemName": "chicken 65",
+      "typeOfItem": "Muglai North India",
+      "rating": 4.5,
+      "price": 170,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    },
+    {
+      "hotelName": "Tandoor Point",
+      "itemName": "mutton biryani",
+      "typeOfItem": "Muglai North India",
+      "rating": 4.5,
+      "price": 400,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    },
+    {
+      "hotelName": "KFC",
+      "itemName": "Cheese Burger",
+      "typeOfItem": "Muglai North India",
+      "rating": 4.5,
+      "price": 500,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
