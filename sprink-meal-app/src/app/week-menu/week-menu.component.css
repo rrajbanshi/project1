@@ -1,0 +1,24 @@
+.banner-in {
+  position: relative;
+  z-index: 99;
+}
+.banner-wrap {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 15px;
+}
+.banner-wrap .parent {
+  top: 0;
+  z-index: -99;
+  width: 100%;
+}
+.banner-wrap .banner img {
+  width: 100%;
+}
+.desktop-only {
+  display: block;
+}
+.mobile-only {
+  display: none;
+}

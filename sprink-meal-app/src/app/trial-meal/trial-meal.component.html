@@ -1,0 +1,121 @@
+<app-header></app-header>
+
+<div
+  class="loader_b2c d-none"
+  style="
+    background: url('https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/loader.gif')
+      50% 50% no-repeat rgb(249, 249, 249);
+  "
+></div>
+<div class="get-started-steps-body mt-n5">
+  <div class="row mx-auto justify-content-center pt-5">
+    <div
+      class="bg-white trial-meal w-75 p-1 p-sm-5 mx-sm-auto mx-3 my-5 radius18"
+    >
+      <div class="pt-3 px-3 mb-0 pb-0" data-ride="carousel">
+        <img
+          src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/trial-page-banner.png"
+          class="w-100 d-inline-block"
+          alt=""
+        />
+      </div>
+      <div class="mt-0 pt-0 ml-3">
+        <p
+          class="text-warning mt-4 font-weight-bold mb-3 cutoff-gradient trial_header"
+        >
+          Trial Meal Plans
+        </p>
+        <ul class="nav m-0 p-0 mb-2 trial_slot">
+          <li class="nav-item mr-md-5 mr-2 pr-md-5">
+            <a
+              class="nav-link text-dark px-2 px-md-3 mr-md-5 font-capitalize h6 checkd-none"
+              >Dinner</a
+            >
+          </li>
+          <li class="nav-item mr-md-5 mr-2 pr-md-5">
+            <a
+              href=""
+              class="nav-link text-dark px-2 px-md-3 mr-md-5 font-capitalize h6 checkd-none"
+              >Lunch</a
+            >
+          </li>
+        </ul>
+        <!-- ---- -->
+        <div class="d-md-flex mb-3">
+          <p class="mr-3 mb-0">
+            <img
+              src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/lunch_time.png"
+              class="delivery_time"
+            />
+            <span class="font-weight-normal f-13"
+              >Standard Lunch delivery: 11:30 am - 01:30 pm</span
+            >
+          </p>
+          <p class="mr-3 mb-0">
+            <img
+              src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/dinner_time.png"
+              class="delivery_time"
+            />
+            <span class="font-weight-normal f-13"
+              >Lunch cut-off timings-06:00 am (Yesterday)
+              <i
+                class="fa fa-info-circle text-muted example-popover"
+                data-content="Cut-off timings is referred to a time after which an order 
+                        can not be placed."
+                data-html="true"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="bottom"
+                data-original-title=""
+                title=""
+              ></i>
+            </span>
+          </p>
+          <span class="text-success font-weight-normal mt-md-n1 f-13">
+            <img
+              class="d-none d-md-inline-block w-25"
+              src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/car.png"
+              alt=""
+            />
+            <img
+              class="d-md-none"
+              width="35"
+              src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/car.png"
+              alt=""
+            />
+
+            FREE Delivery
+          </span>
+        </div>
+        <div
+          class="custom-control custom-switch text-right mt-n3 px-md-2 mb-2 mx-md-5 mx-3"
+        >
+          <span class="mr-3"><strong>Veg</strong></span>
+          <label class="switch">
+            <input (click)="onVegSelected()" type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="row">
+          <div *ngFor="let item of items" class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="{{ item.image }}"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">{{ item.nameOfDish }}</h5>
+                <p class="card-text">type: {{ item.type }}</p>
+                <p class="card-text">type: {{ item.price }}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

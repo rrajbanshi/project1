@@ -1,0 +1,86 @@
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  /* position: absolute; */
+  z-index: 999;
+}
+.customer_say {
+  margin-top: 50px !important;
+}
+.customer_say_text {
+  font-size: 24px !important;
+}
+.star-color {
+  color: red !important;
+}
+.heading {
+  text-align: center;
+}
+.how-it-works .parent .item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+  text-align: center;
+}
+.how-it-works .parent .item .reason h3 {
+  font-size: 14.2px;
+  color: #233a5a;
+  letter-spacing: -0.57px;
+}
+
+.our-menu .heading {
+  text-align: center;
+  font-size: 31px;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+.our-menu {
+  float: left;
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.our-menu .description p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.47;
+  font-size: 16px;
+  font-weight: 500;
+}
+.description {
+  margin-bottom: 50px;
+}
+.our-menu .action {
+  text-align: center;
+  padding-top: 30px;
+}
+.btn-extra {
+  width: 310px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 91%;
+  letter-spacing: -0.57px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #1e8ff7 0%, #24b3f1 93.32%);
+  border-radius: 5px;
+  border: none !important;
+  margin-bottom: 22px;
+}
+
+.fresh-healthy {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.fresh-healthy .heading {
+  padding-top: 40px !important;
+  padding-bottom: 45px !important;
+}

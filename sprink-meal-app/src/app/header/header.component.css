@@ -1,0 +1,21 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    justify-content: space-between;
+  }
+}
+.logout {
+  cursor: pointer;
+}
+.nav-link {
+  font-weight: 500;
+}
+
+.navv {
+  background-color: white !important;
+}
+.imgg {
+  margin-left: 45px;
+}
+.navbar-toggler-icon {
+  margin-right: 45px;
+}

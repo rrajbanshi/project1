@@ -1,0 +1,112 @@
+<nav class="navbar navbar-expand-lg navv navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">
+    <img
+      class="imgg"
+      src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/logo.png"
+      alt=""
+    />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div *ngIf="userLogin; else elseBlock">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about_us">About Sprink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/week_menu">View menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/trial_meal">Trial Meal</a>
+        </li>
+        <li class="nav-item">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+                <div
+                  style="left: -247%; width: 300px"
+                  class="dropdown-menu ml-auto"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item">start Suscription</a>
+                  <a class="dropdown-item">Contact Us</a>
+                  <a class="dropdown-item" routerLink="/login">Sign in </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- after login -->
+  <ng-template #elseBlock>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link"
+            >{{ singleUserData.firstName | titlecase }}
+            {{ singleUserData.lastName | titlecase }}
+            ({{ price | currency: "INR":"symbol" }})
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/week_menu">View menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/trial_meal">Trial Meal</a>
+        </li>
+        <li class="nav-item">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </a>
+                <div
+                  style="left: -300%"
+                  class="dropdown-menu ml-auto"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item">Home</a>
+                  <a class="dropdown-item">My Profile</a>
+                  <a class="dropdown-item">Billing </a>
+                  <a class="dropdown-item">Start Suscription </a>
+                  <a class="dropdown-item">Contact Us </a>
+                  <a class="dropdown-item" (click)="logout()">Sign Out </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </ng-template>
+</nav>

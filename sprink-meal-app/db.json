@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "nonVegItemsLunch": [
+    {
+      "nameOfDish": "non veg lunch",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    }
+  ],
+  "nonVegItemsDinner": [
+    {
+      "nameOfDish": "non veg dinner",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    }
+  ],
+  "vegItemsDinner": [
+    {
+      "nameOfDish": "veg dinner",
+      "type": " veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    }
+  ],
+
+  "vegItemsLunch": [
+    {
+      "nameOfDish": "veg lunch",
+      "type": "veg",
+      "price": 120,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    }
+  ],
+  "accounts": [
+    {
+      "firstName": "rakesh",
+      "lastName": "Rajbanshi",
+      "phoneNumber": "9855343435",
+      "email": "merakerr@gmail.com",
+      "password": "rakesh",
+      "id": 1
+    },
+    {
+      "firstName": "abhisekh ",
+      "lastName": "bilagi",
+      "phoneNumber": "56565565",
+      "email": "abhisekh@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

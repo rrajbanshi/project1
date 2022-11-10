@@ -1,0 +1,184 @@
+<app-header></app-header>
+<div class="bigImageStatic">
+  <div class="nav-img about-us">
+    <img
+      class="mx-auto d-block"
+      src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13462.png"
+      alt=""
+    />
+  </div>
+
+  <div class="container">
+    <div class="head_img justify-content-center row align-items-center">
+      <h4 class="tc">About Us</h4>
+    </div>
+    <div class="text-center font-weight-bold pt-4 mb-1 pb-2">
+      <h5>
+        We are on a mission to make people’s lives easier and mealtime tastier.
+      </h5>
+    </div>
+    <div class="text-center">
+      We take a fresh approach to the food industry by delivering hygienic,
+      delicious, better-for-you, homely meals, right to your door. We are here
+      so that you can finally ditch all the grocery shopping, cutting, cooking
+      and cleaning and take mealtime stress off your plate. Sprink enables you
+      to have your daily meals without skimping on variety or great taste. All
+      of it, brought to you on a platform that is wondrously easy to use and at
+      no regret prices.
+      <p class="font-italic">
+        <i>Say No To Kitchen & Yes to Life</i>
+        with the most
+        <b>Easy, Affordable food services for your daily meals.</b>
+      </p>
+    </div>
+  </div>
+  <div class="mt-5 pt-5">
+    <div class="head_img justify-content-center row align-items-center">
+      <h4 class="tc">Our Philosophy</h4>
+    </div>
+    <div class="text-center font-weight-bold mt-1 pt-4 mb-2 pb-2">
+      <h5 style="font-size: 1.25rem">
+        Cook responsibly & deliver food fresh and tasty.
+      </h5>
+    </div>
+    <div class="text-center para">
+      <p
+        style="
+          font-size: 16px;
+          font-weight: 500;
+          margin-top: 0;
+          margin-bottom: 1rem;
+        "
+      >
+        We love food, and we’re committed to making it the right way. All Sprink
+        food has to meet our three-point code. First, it has to be healthy, made
+        with trusted ingredients from trusted vendors. Second, it has to be
+        prepared with utmost hygiene standards. Finally, it has to taste good.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="mt-1 p-4">
+  <div class="justify-content-center row align-items-center">
+    <h5>ALL THE MEALS WE MAKE</h5>
+  </div>
+  <div class="mt-2 pt-md-5 mb-2 pb-2 shadow border bw">
+    <div class="row mt-3">
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>
+              Ingredients Sourced from Licensed Vendors
+              <a (click)="onArrowClicked1()">
+                <i
+                  *ngIf="arrowClicked1; else elseBlock"
+                  class="fas pl-sm-3 fa-chevron-down chev1"
+                ></i>
+                <ng-template #elseBlock>
+                  <i class="fas pl-sm-3 fa-chevron-right"></i>
+                </ng-template>
+              </a>
+            </h6>
+          </div>
+          <div *ngIf="div1">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>No Frozen Ingredients</h6>
+            <a (click)="onArrowClicked2()">
+              <i
+                *ngIf="arrowClicked2; else elseBlock2"
+                class="fas pl-sm-3 fa-chevron-down chev1"
+              ></i>
+              <ng-template #elseBlock2>
+                <i class="fas pl-sm-3 fa-chevron-right"></i>
+              </ng-template>
+            </a>
+          </div>
+          <div *ngIf="div2">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>Real Cooking by Expert Chefs</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- second row -->
+    <div class="row mt-3">
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>Healthy Standardised Usage of Oils & Spices</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>Best Deals</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="row justify-content-center">
+          <img
+            src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13434.png"
+            alt=""
+            class="px-2"
+          />
+          <div class="col-5 col-sm-6 px-0">
+            <h6>All natural ingredients.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

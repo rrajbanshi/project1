@@ -1,0 +1,32 @@
+.about-us img {
+  object-fit: fill;
+  width: 100%;
+  max-height: 426.9px;
+}
+.head_img {
+  color: #233a5a;
+  height: 119.61px;
+  width: 100%;
+  background-image: url(https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13409.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.para {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.side-margin-left {
+  margin-left: 200px;
+}
+.chev1 .pl-sm-3 {
+  padding-left: 11rem !important;
+  font-size: 30px;
+}
+.card-body {
+  background-color: #cff1ff;
+  width: 300px;
+}
