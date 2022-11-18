@@ -13,24 +13,26 @@ public interface EmployeeServiceHibernate {
 
 	public boolean update(Employee emp);
 
-	public boolean delete(int empId);
+	public boolean delete(int empId)throws EmployeeException ;
 
 	public Employee get(int empId) throws EmployeeException;
 
-	public List<Employee> getAll();
+	public List<Employee> getAll()throws EmployeeException;
 
-	public void bulkImport();
+	public void bulkImport()throws EmployeeException;
 
-	public void bulkExport();
+	public void bulkExport() throws EmployeeException;
 
 	public boolean validate(Employee emp, String msg, Predicate<Employee> condition,
-			Function<String, Boolean> operation);
+			Function<String, Boolean> operation) throws EmployeeException;
 
-	public long getEmployeeCountAgeGreaterThan(int age);
+	public List<Employee> getEmployeeCountAgeGreaterThan(int age) throws EmployeeException;
 
-	public List<Integer> getEmployeeIdsAgeGreaterThan(int age);
+	public List<Integer> getEmployeeIdsAgeGreaterThan(int age) throws EmployeeException;
 
-	public Map<String, Long> getEmployeeCountByDepartment();
+	public Map<Object,Object> getEmployeeCountByDepartment() throws EmployeeException;
 
-	public Map<String, Long> getEmployeeCountByDepartmentOdered();
+	public Map<Object,Object> getEmployeeCountByDepartmentOdered() throws EmployeeException;
+	
+	public void statistics() throws EmployeeException;
 }

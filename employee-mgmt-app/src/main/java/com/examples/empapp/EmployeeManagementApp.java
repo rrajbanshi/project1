@@ -14,11 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-
-//
-import javax.transaction.Transaction;
-//
-
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -28,13 +24,13 @@ public class EmployeeManagementApp {
 
 	private static Scanner in;
 	private static EmployeeService empService;
-	private static EmployeeServiceHibernate emplHibernate;
+	private static EmployeeServiceHibernate emplHibernateService;
 
 	public static void main(String[] args) {
 
 		in = new Scanner(System.in);
 		empService = new EmployeeServiceColImpl();
-		emplHibernate = new EmployeeServiceHibernateImpl();
+		emplHibernateService = new EmployeeServiceHibernateImpl();
 		ExecutorService executor = Executors.newCachedThreadPool();
 
 		System.out.print("Welcome to Employee Management App!");
@@ -73,8 +69,7 @@ public class EmployeeManagementApp {
 					empId = in.nextInt();
 					Employee emp = null;
 					try {
-						//emp = empService.get(empId);
-					      emp = emplHibernate.get(empId);
+					      emp = emplHibernateService.get(empId);
 					} catch (EmployeeException e) {
 						System.out.println(e.getMessage());
 						break;
@@ -87,30 +82,51 @@ public class EmployeeManagementApp {
 					empId = in.nextInt();
 					Employee empForUpdate;
 					try {
-						empForUpdate = empService.get(empId);
+						empForUpdate = emplHibernateService.get(empId);
 					} catch (EmployeeException e) {
 						System.out.println(e.getMessage());
 						break;
 					}
 					captureEmpDetail(empForUpdate);
-					empService.update(empForUpdate);
+					emplHibernateService.update(empForUpdate);
 					System.out.println("Employee has been updated successfully!");
 					break;
 				case 4:
 					System.out.print("Please enter employee id: ");
 					empId = in.nextInt();
-					empService.delete(empId);
-					System.out.println("Employee has been deleted successfully!");
+//					empService.delete(empId);
+					try {
+						emplHibernateService.delete(empId);
+						System.out.println("Employee has been deleted successfully!");
+					}
+					catch(EmployeeException e) {
+						System.out.println(e.getMessage());
+					}
+					
 					break;
 				case 5:
-					List<Employee> employees = empService.getAll();
-					printHeader();
-					for (Employee employee : employees) {
-						printDetail(employee);
+					//List<Employee> employees = empService.getAll();
+					try {
+						List<Employee> employees = emplHibernateService.getAll();
+						printHeader();
+						for (Employee employee : employees) {
+							printDetail(employee);
+						}
 					}
+					catch(EmployeeException e) {
+						System.out.println(e.getMessage());
+					}
+					
 					break;
 				case 6:
-					printStatistics();
+//					printStatistics();
+					try {
+						emplHibernateService.statistics();
+					}
+					catch(EmployeeException e) {
+						System.out.println(e.getMessage());
+					}
+					
 					break;
 				case 7:
 					Callable<Boolean> importThread = new Callable<Boolean>() {
@@ -171,8 +187,8 @@ public class EmployeeManagementApp {
 	}
 
 	private static void printHeader() {
-		System.out.format("\n%5s %15s %5s %15s %15s %15s", "EmpID", "Name", "Age", "Designation", "Department",
-				"Country");
+		System.out.format("\n%5s %15s %5s %15s %15s %15s", "empId", "name", "age", "designation", "department",
+				"country");
 	}
 
 	private static void printDetail(Employee emp) {
@@ -190,7 +206,7 @@ public class EmployeeManagementApp {
 		captureEmpDetail(employee);
 
 		//empService.create(employee);
-		emplHibernate.create(employee);
+		emplHibernateService.create(employee);
 	}
 
 	private static void captureEmpDetail(Employee employee) throws NumberFormatException {
