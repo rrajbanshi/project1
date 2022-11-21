@@ -1,0 +1,143 @@
+<app-header></app-header>
+
+<div class="bgimage-static">
+  <div class="nav_img about-us">
+    <img
+      class="mx-auto d-block"
+      src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13461.png"
+      alt=""
+    />
+  </div>
+
+  <div class="container">
+    <div class="head_img justify-content-center row align-items-center">
+      <h4>Contact Us</h4>
+    </div>
+
+    <div class="text-center my-1 py-4">
+      Want to know more? We are available on the below contact details.
+    </div>
+    <div class="row mb-5">
+      <div class="col-12 col-sm bwe border-right">
+        <div class="">
+          <div class="row justify-content-center">
+            <h1 class="display-4 mb-3">
+              <img
+                class="mb-2"
+                src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/marker-icon.png"
+                alt=""
+              />
+            </h1>
+          </div>
+          <div class="row justify-content-center"><h6>ADDRESS</h6></div>
+          <div class="row justify-content-center text-center">
+            <p>
+              Kinematic Foodtech Pvt Ltd, <br />
+              #201/1A, Kudlu Main Road,<br />
+              Opposite Bren Palms Apartment, <br />
+              Kudlu main road, Bangalore - 560068
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm bwe border-right">
+        <div class="">
+          <div class="row justify-content-center">
+            <h1 class="display-4 mb-2">
+              <img
+                class="mb-2"
+                src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13419.png"
+                alt=""
+              />
+            </h1>
+          </div>
+          <div class="row justify-content-center"><h6>CHAT WITH US</h6></div>
+          <div class="row justify-content-center">
+            <p>Click on chat bubble at the bottom right corner</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm">
+        <div class="">
+          <div class="row justify-content-center">
+            <h1 class="display-4 mb-3">
+              <img
+                class="mb-2"
+                src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/Group-13164.png"
+                alt=""
+              />
+            </h1>
+          </div>
+          <div class="row justify-content-center"><h6>EMAIL</h6></div>
+          <div class="row justify-content-center">
+            <p>contact@sprink.online</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-5 pb-5">
+      <!-- form started here -->
+      <form [formGroup]="formsData" (ngSubmit)="onFormSubmit()">
+        <div class="row my-2">
+          <div class="col-12 col-sm mb-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your name"
+              id="name"
+              formControlName="name"
+            />
+          </div>
+          <div class="col-12 col-sm mb-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Phone Number"
+              id="phone"
+              formControlName="phone"
+            />
+          </div>
+          <div class="col-12 col-sm mb-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Email"
+              id="email_id"
+              formControlName="email"
+            />
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Subject"
+              id="subject"
+              formControlName="subject"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            placeholder="Message"
+            formControlName="message"
+            rows="15"
+          ></textarea>
+        </div>
+        <div class="text-right">
+          <button
+            type="submit"
+            id="send_email_btn"
+            class="btn btn-primary btn-lg w-25"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

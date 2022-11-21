@@ -49,7 +49,7 @@
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <a class="dropdown-item">start Suscription</a>
-                  <a class="dropdown-item">Contact Us</a>
+                  <a class="dropdown-item" routerLink = "/contact_us">Contact Us</a>
                   <a class="dropdown-item" routerLink="/login">Sign in </a>
                 </div>
               </li>
@@ -91,15 +91,15 @@
                   <span class="navbar-toggler-icon"></span>
                 </a>
                 <div
-                  style="left: -300%"
+                  style="left: -128%"
                   class="dropdown-menu ml-auto"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a class="dropdown-item">Home</a>
-                  <a class="dropdown-item">My Profile</a>
+                  <a class="dropdown-item" routerLink = "/home">Home</a>
+                  <a class="dropdown-item" routerLink = "/my_profile">My Profile</a>
                   <a class="dropdown-item">Billing </a>
                   <a class="dropdown-item">Start Suscription </a>
-                  <a class="dropdown-item">Contact Us </a>
+                  <a class="dropdown-item" routerLink = "/contact_us">Contact Us </a>
                   <a class="dropdown-item" (click)="logout()">Sign Out </a>
                 </div>
               </li>

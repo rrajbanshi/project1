@@ -14,6 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { WeekMenuComponent } from './week-menu/week-menu.component';
 import { TrialMealComponent } from './trial-meal/trial-meal.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MyProfileComponent } from './my-profile/my-profile.component';
+import { SuscriptionStarterComponent } from './suscription-starter/suscription-starter.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { TrialMealComponent } from './trial-meal/trial-meal.component';
     AboutUsComponent,
     WeekMenuComponent,
     TrialMealComponent,
+    ContactUsComponent,
+    MyProfileComponent,
+    SuscriptionStarterComponent,
   ],
   imports: [
     BrowserModule,

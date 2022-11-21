@@ -28,13 +28,16 @@
         <ul class="nav m-0 p-0 mb-2 trial_slot">
           <li class="nav-item mr-md-5 mr-2 pr-md-5">
             <a
+              [ngClass]="{ green: dinnerToogle, white: !dinnerToogle }"
+              (click)="dinnerClicked()"
               class="nav-link text-dark px-2 px-md-3 mr-md-5 font-capitalize h6 checkd-none"
               >Dinner</a
             >
           </li>
           <li class="nav-item mr-md-5 mr-2 pr-md-5">
             <a
-              href=""
+              [ngClass]="{ green: lunchToggle, white: !lunchToggle }"
+              (click)="lunchClicked()"
               class="nav-link text-dark px-2 px-md-3 mr-md-5 font-capitalize h6 checkd-none"
               >Lunch</a
             >
@@ -97,7 +100,10 @@
           </label>
         </div>
         <div class="row">
-          <div *ngFor="let item of items" class="col-sm-12 col-md-6 col-lg-4">
+          <div
+            *ngFor="let item of items"
+            class="col-sm-12 col-md-6 col-lg-4 mb-4"
+          >
             <div class="card" style="width: 18rem">
               <img
                 class="card-img-top"

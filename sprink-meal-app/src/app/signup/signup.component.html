@@ -11,6 +11,33 @@
         formControlName="firstName"
         name="firstname"
       />
+      <span
+        class="text-danger"
+        *ngIf="firstName?.hasError('required') && firstName?.touched"
+        >Name is Required</span
+      >
+      <span
+        class="text-danger"
+        *ngIf="
+          !firstName?.hasError('required') &&
+          firstName?.touched &&
+          (firstName?.hasError('minlength') || firstName?.hasError('maxlength'))
+        "
+        >Name should be between 2 to 15 character</span
+      >
+      <span
+        class="text-danger"
+        *ngIf="
+          !firstName?.hasError('required') &&
+          firstName?.touched &&
+          firstName?.hasError('pattern') &&
+          !(
+            firstName?.hasError('minlength') || firstName?.hasError('maxlength')
+          )
+        "
+      >
+        Please Enter a valid name
+      </span>
     </div>
     <div class="form-group">
       <label for="lastname">Last Name</label>
@@ -31,6 +58,22 @@
         formControlName="phoneNumber"
         name="phoneno"
       />
+      <span
+        class="text-danger"
+        *ngIf="phoneNumber?.hasError('required') && phoneNumber?.touched"
+      >
+        Phone Number Required
+      </span>
+      <span
+        class="text-danger"
+        *ngIf="
+          !phoneNumber?.hasError('required') &&
+          phoneNumber?.touched &&
+          phoneNumber?.hasError('pattern')
+        "
+      >
+        Phone number must be 10 digit number
+      </span>
     </div>
     <div class="form-group">
       <label for="Email1">Email address</label>
@@ -42,6 +85,16 @@
         aria-describedby="emailHelp"
         name="email"
       />
+      <span
+        class="text-danger"
+        *ngIf="email?.hasError('required') && email?.touched"
+        >Email Required</span
+      >
+      <span
+        class="text-danger"
+        *ngIf="!email?.hasError('required') && email?.invalid && email?.touched"
+        >Invalid Email</span
+      >
     </div>
     <div class="form-group">
       <label for="Password">Password</label>
@@ -52,8 +105,30 @@
         formControlName="password"
         name="password"
       />
+      <span
+        class="text-danger"
+        *ngIf="password?.hasError('required') && password?.touched"
+        >Password is Required</span
+      >
+      <span
+        class="text-danger"
+        *ngIf="
+          !password?.hasError('required') &&
+          password?.touched &&
+          password?.hasError('pattern')
+        "
+      >
+        Enter a strong password, ie->1@A
+      </span>
     </div>
-    <button type="submit" class="btn btn-primary" name="create">Sign up</button>
+    <button
+      type="submit"
+      [disabled]="signupForm.invalid"
+      class="btn btn-primary"
+      name="create"
+    >
+      Sign up
+    </button>
   </form>
   <a href="#" routerLink="/login">Already a member ? click to signin</a>
 </div>

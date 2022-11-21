@@ -94,3 +94,13 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.green {
+  background-color: green;
+  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+  cursor: pointer;
+}

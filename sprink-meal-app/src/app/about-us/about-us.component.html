@@ -134,6 +134,23 @@
           />
           <div class="col-5 col-sm-6 px-0">
             <h6>Real Cooking by Expert Chefs</h6>
+            <a (click)="onArrowClicked3()">
+              <i
+                *ngIf="arrowClicked3; else elseBlock3"
+                class="fas pl-sm-3 fa-chevron-down chev1"
+              ></i>
+              <ng-template #elseBlock3>
+                <i class="fas pl-sm-3 fa-chevron-right"></i>
+              </ng-template>
+            </a>
+          </div>
+          <div *ngIf="div3">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
           </div>
         </div>
       </div>
@@ -150,6 +167,23 @@
           />
           <div class="col-5 col-sm-6 px-0">
             <h6>Healthy Standardised Usage of Oils & Spices</h6>
+            <a (click)="onArrowClicked4()">
+              <i
+                *ngIf="arrowClicked5; else elseBlock4"
+                class="fas pl-sm-3 fa-chevron-down chev1"
+              ></i>
+              <ng-template #elseBlock4>
+                <i class="fas pl-sm-3 fa-chevron-right"></i>
+              </ng-template>
+            </a>
+          </div>
+          <div *ngIf="div4">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
           </div>
         </div>
       </div>
@@ -162,6 +196,23 @@
           />
           <div class="col-5 col-sm-6 px-0">
             <h6>Best Deals</h6>
+            <a (click)="onArrowClicked5()">
+              <i
+                *ngIf="arrowClicked5; else elseBlock5"
+                class="fas pl-sm-3 fa-chevron-down chev1"
+              ></i>
+              <ng-template #elseBlock5>
+                <i class="fas pl-sm-3 fa-chevron-right"></i>
+              </ng-template>
+            </a>
+          </div>
+          <div *ngIf="div5">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
           </div>
         </div>
       </div>
@@ -174,6 +225,23 @@
           />
           <div class="col-5 col-sm-6 px-0">
             <h6>All natural ingredients.</h6>
+            <a (click)="onArrowClicked6()">
+              <i
+                *ngIf="arrowClicked6; else elseBlock6"
+                class="fas pl-sm-3 fa-chevron-down chev1"
+              ></i>
+              <ng-template #elseBlock6>
+                <i class="fas pl-sm-3 fa-chevron-right"></i>
+              </ng-template>
+            </a>
+          </div>
+          <div *ngIf="div6">
+            <div class="card card-body">
+              A meal is only as good as its ingredients. We mindfully source
+              fresh veggies, hearty whole grains from farms and distributors who
+              are highly trusted and licensed in the industry, so every bite
+              oozes of fresh flavours.
+            </div>
           </div>
         </div>
       </div>

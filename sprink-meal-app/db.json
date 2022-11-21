@@ -12,6 +12,24 @@
       "type": "Non veg",
       "price": 300,
       "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg lunch",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg lunch",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg lunch",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
     }
   ],
   "nonVegItemsDinner": [
@@ -19,7 +37,25 @@
       "nameOfDish": "non veg dinner",
       "type": "Non veg",
       "price": 300,
-      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+      "image": "https://cdn.pixabay.com/photo/2016/07/22/05/07/delicious-1534207_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg dinner",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/07/22/05/07/delicious-1534207_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg dinner",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/07/22/05/07/delicious-1534207_960_720.jpg"
+    },
+    {
+      "nameOfDish": "non veg dinner",
+      "type": "Non veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2016/07/22/05/07/delicious-1534207_960_720.jpg"
     }
   ],
   "vegItemsDinner": [
@@ -27,16 +63,61 @@
       "nameOfDish": "veg dinner",
       "type": " veg",
       "price": 300,
-      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+      "image": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg dinner",
+      "type": " veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg dinner",
+      "type": " veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg dinner",
+      "type": " veg",
+      "price": 300,
+      "image": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg"
     }
   ],
-
   "vegItemsLunch": [
     {
       "nameOfDish": "veg lunch",
       "type": "veg",
       "price": 120,
-      "image": "https://cdn.pixabay.com/photo/2016/01/15/10/56/biryani-1141444_960_720.jpg"
+      "image": "https://cdn.pixabay.com/photo/2017/02/28/20/59/carrots-2106825_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg lunch",
+      "type": "veg",
+      "price": 120,
+      "image": "https://cdn.pixabay.com/photo/2017/02/28/20/59/carrots-2106825_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg lunch",
+      "type": "veg",
+      "price": 120,
+      "image": "https://cdn.pixabay.com/photo/2017/02/28/20/59/carrots-2106825_960_720.jpg"
+    },
+    {
+      "nameOfDish": "veg lunch",
+      "type": "veg",
+      "price": 120,
+      "image": "https://cdn.pixabay.com/photo/2017/02/28/20/59/carrots-2106825_960_720.jpg"
+    }
+  ],
+  "query": [
+    {
+      "name": "rakesh rajbanshi",
+      "phone": "9853573382",
+      "email": "merakerr@gmail.com",
+      "subject": "my subject",
+      "message": "my message",
+      "id": 1
     }
   ],
   "accounts": [
@@ -45,15 +126,15 @@
       "lastName": "Rajbanshi",
       "phoneNumber": "9855343435",
       "email": "merakerr@gmail.com",
-      "password": "rakesh",
+      "password": "Rakesh@12",
       "id": 1
     },
     {
-      "firstName": "abhisekh ",
-      "lastName": "bilagi",
-      "phoneNumber": "56565565",
-      "email": "abhisekh@gmail.com",
-      "password": "1234",
+      "firstName": "rakesh",
+      "lastName": "",
+      "phoneNumber": "6767676767",
+      "email": "rakesh@gmail.com",
+      "password": "Rakesh@123",
       "id": 2
     }
   ],

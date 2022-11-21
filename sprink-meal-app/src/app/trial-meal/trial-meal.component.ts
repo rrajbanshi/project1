@@ -11,6 +11,9 @@ export class TrialMealComponent implements OnInit {
   vegSeleted: boolean = true;
   dinnerSelected: boolean = true;
   items!: mealItem[];
+  dinnerToogle = true;
+  lunchToggle = false;
+
   constructor(private _itemService: ItemsFetchService) {}
 
   ngOnInit(): void {
@@ -19,9 +22,33 @@ export class TrialMealComponent implements OnInit {
     });
   }
 
+  dinnerClicked() {
+    this.dinnerSelected = true;
+    console.log(this.dinnerSelected);
+    console.log(this.vegSeleted);
+    this.dinnerToogle = true;
+    this.lunchToggle = false;
+    this.fetchData(); //calling a fetch function
+  }
+  lunchClicked() {
+    this.dinnerSelected = false;
+    console.log(this.dinnerSelected);
+    console.log(this.vegSeleted);
+    this.dinnerToogle = false;
+    this.lunchToggle = true;
+    this.fetchData(); //calling a fetch function
+  }
+
   onVegSelected() {
     this.vegSeleted = !this.vegSeleted;
-    if (!this.vegSeleted && this.dinnerSelected) {
+    console.log(this.dinnerSelected);
+    console.log(this.vegSeleted);
+    console.log(this.items);
+    this.fetchData(); //calling a fetch function
+  }
+
+  fetchData() {
+    if (this.vegSeleted && this.dinnerSelected) {
       this._itemService.vegItemsDinner().subscribe((allData) => {
         this.items = allData;
       });
@@ -34,10 +61,9 @@ export class TrialMealComponent implements OnInit {
         this.items = allData;
       });
     } else {
-      this._itemService.vegItemsDinner().subscribe((allData) => {
+      this._itemService.nonVegItemsDinner().subscribe((allData) => {
         this.items = allData;
       });
     }
-    console.log(this.items);
   }
 }

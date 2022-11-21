@@ -1,0 +1,181 @@
+<app-header></app-header>
+
+<div class="row mt-5">
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+      <div class="my-5 pt-3 pr-xl-4 pl-xl-4">
+        <div class="col pl-0 d-flex justify-content-center mx-0">
+          <div class="p-0 rounded-circle img-header col-9">
+            <img
+              class="p-0 rounded-circle col-12 border"
+              src="https://images.vexels.com/media/users/3/129616/isolated/preview/fb517f8913bd99cd48ef00facb4a67c0-businessman-avatar-silhouette-by-vexels.png"
+            />
+            <img
+              class="online pr-xl-3 pt-xl-2 pr-0 pt-0"
+              src="https://d3ljlx3hzhder.cloudfront.net/sprink/b2c_assets/images/online.png"
+            />
+          </div>
+        </div>
+        <div class="text-center mr-3 mb-2">
+          <h5>Hello {{ userLoggedDetails.firstName | titlecase }}</h5>
+        </div>
+      </div>
+
+      <ul class="list-unstyled components">
+        <li>
+          <a>Edit Details</a>
+        </li>
+        <li>
+          <a>Suscription setting</a>
+        </li>
+        <li>
+          <a>Food/calendar</a>
+        </li>
+        <li>
+          <a>Billing </a>
+        </li>
+        <li>
+          <a routerLink="/week_menu">View Menu</a>
+        </li>
+        <li>
+          <a>Start Suscription</a>
+        </li>
+        <li>
+          <a routerLink="/contact_us">Contact Us</a>
+        </li>
+        <li>
+          <a (click)="logout()">Sign Out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid xtend">
+          <!-- <button
+            [ngClass]="{ active: Toogle }"
+            (click)="onToggleClick()"
+            type="button"
+            id="sidebarCollapse"
+            class="btn btn-info"
+          >
+            <i class="fas fa-align-left"></i>
+            <span>Toggle Sidebar</span>
+          </button>
+          <button
+            class="btn btn-dark d-inline-block d-lg-none ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-align-justify"></i>
+          </button> -->
+
+          <!-- <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          ></div> -->
+        </div>
+      </nav>
+      <div>
+        <div class="card">
+          <div class="card-horizontal">
+            <div class="img-square-wrapper">
+              <img
+                class="p-1 select_profile_preference cursor-pointer bg-light rounded-circle-2 col-12 border border-success"
+                src="https://images.vexels.com/media/users/3/129616/isolated/preview/fb517f8913bd99cd48ef00facb4a67c0-businessman-avatar-silhouette-by-vexels.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <div class="ml-5">
+                <h4 class="card-title">Personal Information</h4>
+                <div class="card-text">
+                  <!-- user details -->
+                  <div
+                    class="content bg-white mx-2 mx-sm-0 px-5 border rounded"
+                  >
+                    <form>
+                      <h5 class="ml-lg-4 pl-lg-3 py-4 my-3 mx-sm-0 mx-5">
+                        <div
+                          class="mx-sm-0 text-center text-sm-left px-sm-0 px-5"
+                        >
+                          Profile
+                        </div>
+                      </h5>
+                      <div class="form-group row">
+                        <label
+                          for="inputname"
+                          class="col-2 pl-lg-5 pl-md-3 pr-xl-4 col-form-label"
+                        >
+                          <div class="ml-md-2 my-1" style="width: 50px">
+                            Name
+                          </div>
+                        </label>
+                        <div class="col-10 pl-4 pr-5">
+                          <input
+                            type="text"
+                            class="rounded-0 border form-control validate_mandatory"
+                            id="customer-name"
+                            value="{{ userLoggedDetails.firstName }} {{
+                              userLoggedDetails.lastName
+                            }}"
+                            readonly
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label
+                          for="inputPassword"
+                          class="col-2 pl-lg-5 pl-md-3 pr-lg-0 col-form-label"
+                          ><div class="ml-md-2 my-1">Email</div></label
+                        >
+                        <div class="col-10 pl-4 pr-5">
+                          <input
+                            type="email"
+                            class="rounded-0 border form-control validate_mandatory"
+                            id="customer-email"
+                            value="{{ userLoggedDetails.email }}"
+                            readonly
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label
+                          for="inputPassword"
+                          class="col-2 pl-lg-5 pl-md-3 pr-xl-0 col-form-label"
+                          ><div class="ml-md-2 my-1">Phone</div></label
+                        >
+                        <div class="col-10 pl-4 pr-5">
+                          <input
+                            type="text"
+                            class="rounded-0 border form-control"
+                            id="customer-phone"
+                            value="{{ userLoggedDetails.phoneNumber }}"
+                            readonly
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row"></div>
+                      <div
+                        class="form-group row d-flex justify-content-center"
+                      ></div>
+                    </form>
+                  </div>
+                  <!-- user details end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
