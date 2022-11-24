@@ -45,18 +45,17 @@ public class TeacherServiceImpl implements TeacherService{
 	@Override
 	public List<Teacher> getAll() {
        return new TeacherDaoImpl().getAll();
-		
 	}
 
 	@Override
 	public void bulkImport() {
-		// TODO Auto-generated method stub
+		new TeacherDaoImpl().bulkImport();
 		
 	}
 
 	@Override
 	public void bulkExport() {
-		// TODO Auto-generated method stub
+		new TeacherDaoImpl().bulkExport();
 		
 	}
 
