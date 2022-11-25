@@ -1,9 +1,14 @@
 package com.rakesh.project.dao;
 
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -147,58 +152,76 @@ public class TeacherDaoImpl implements TeacherDao{
 	@Override
 	public void bulkImport() {
 		System.out.format("%n%s - Import started %n", Thread.currentThread().getName());
-		int counter = 0;
-		try (Scanner in = new Scanner(new FileReader(".\\input\\teacher-input.txt"))) {
-			System.out.println("Implorting file...");
-			while (in.hasNextLine()) {
-				String emp = in.nextLine();
-				System.out.println("Importing employee - " + emp);
-				Teacher employee = new Teacher();
-				StringTokenizer tokenizer = new StringTokenizer(emp, ",");
-
-				// Emp ID
-				employee.setTid(Integer.parseInt(tokenizer.nextToken()));
-				// Name
-				employee.setName(tokenizer.nextToken());
-				// Age
-				employee.setAge(Integer.parseInt(tokenizer.nextToken()));
-				// Designation
-				employee.setDesignation(tokenizer.nextToken());
-				// Department
-				employee.setDepartment(tokenizer.nextToken());
-				// subject
-				employee.setSubject(emp);
-				this.create(employee);
-				counter++;
+		String path = ".\\input\\teacher-input.txt";
+		try(BufferedReader bufferedReader = new BufferedReader(new FileReader(path,StandardCharsets.UTF_8))) {
+			String temp;
+			while((temp = bufferedReader.readLine())!=null) {
+				System.out.println("temp :"+temp);
+				StringTokenizer st = new StringTokenizer(temp,",");
+				Teacher teacher = new Teacher();
+				teacher.setTid(Integer.parseInt(st.nextToken()));
+				teacher.setName(st.nextToken());
+				teacher.setAge(Integer.parseInt(st.nextToken()));
+				teacher.setDesignation(st.nextToken());
+				teacher.setDepartment(st.nextToken());
+				teacher.setSubject(st.nextToken());
+				this.create(teacher);
 			}
-			System.out.format("%s - %d teacher are imported successfully.", Thread.currentThread().getName(),
-					counter);
 		} catch (Exception e) {
-			System.out.println("Error occured while importing employee data. " + e.getMessage());
+			// TODO: handle exception
 		}
+		
+		
+//		try (Scanner in = new Scanner(new FileReader(".\\input\\teacher-input.txt"))) {
+//			System.out.println("Implorting file...");
+//			while (in.hasNextLine()) {
+//				String emp = in.nextLine();
+//				System.out.println("Importing employee - " + emp);
+//				Teacher employee = new Teacher();
+//				StringTokenizer tokenizer = new StringTokenizer(emp, ",");
+//
+//				// Emp ID
+//				employee.setTid(Integer.parseInt(tokenizer.nextToken()));
+//				// Name
+//				employee.setName(tokenizer.nextToken());
+//				// Age
+//				employee.setAge(Integer.parseInt(tokenizer.nextToken()));
+//				// Designation
+//				employee.setDesignation(tokenizer.nextToken());
+//				// Department
+//				employee.setDepartment(tokenizer.nextToken());
+//				// subject
+//				employee.setSubject(emp);
+//				this.create(employee);
+//				counter++;
+//			}
+//			System.out.format("%s - %d teacher are imported successfully.", Thread.currentThread().getName(),
+//					counter);
+//		} catch (Exception e) {
+//			System.out.println("Error occured while importing employee data. " + e.getMessage());
+//		}
 		
 	}
 
 	@Override
 	public void bulkExport() {
 		System.out.format("%n%s - Export started %n", Thread.currentThread().getName());
-		try (FileWriter out = new FileWriter(".\\output\\employee-output.txt")) {
-			Map<Integer, Teacher> teacher = new HashMap<>();
-			teacher.values().stream().map(emp -> emp.getTid() + "," + emp.getName() + "," + emp.getAge() + ","
-							+ emp.getDesignation() + "," + emp.getDepartment() + "," + emp.getSubject() + "\n")
-					.forEach(rec -> {
-						try {
-							out.write(rec);
-						} catch (IOException e) {
-							System.out
-									.println("Error occured while writing teacher data into file. " + e.getMessage());
-							e.printStackTrace();
-						}
-					});
-			System.out.format("%d Employees are exported successfully.", teacher.values().size());
-		} catch (IOException e) {
-			System.out.println("Error occured while exporting employee data. " + e.getMessage());
+		List<Teacher> teachers = getAll();
+		System.out.println("teacher :"+teachers.size());
+		String path = ".\\output\\employee-output.txt";
+		System.out.println("file exists :"+new File(path).exists());
+		String temp = "";
+		for(Teacher x : teachers) {
+			temp += x.getTid()+" "+x.getName()+ " "+ x.getDesignation()+" "+x.getDepartment()+" "+x.getSubject()+"\n";
 		}
+		try(FileOutputStream fileOutputStream = new FileOutputStream(new File(path))) {
+			byte[] bytes = temp.getBytes();
+			fileOutputStream.write(bytes);
+			fileOutputStream.flush();
+		} catch (Exception e) {
+			
+		}
+
 		
 	}
 
