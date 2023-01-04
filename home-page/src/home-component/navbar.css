@@ -1,0 +1,10 @@
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 17px;
+  margin-left: 20px;
+  padding: auto;
+}

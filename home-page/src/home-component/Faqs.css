@@ -1,0 +1,114 @@
+.faq-section {
+  margin-top: 4%;
+  margin-bottom: 9%;
+}
+
+.Faqs-header {
+  width: 444px;
+  height: 67px;
+  margin-bottom: 5%;
+}
+.Faqs-header p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 21px;
+}
+.card {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: #202020;
+  margin-bottom: 2%;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  background-color: #202020;
+  border-bottom: none;
+}
+.buttonBlock {
+  /* width: 270px; */
+  height: 35px;
+  margin-left: 2px;
+}
+.buttonBlock p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none !important;
+  margin-left: -3%;
+}
+.btn-link {
+  color: #202020 !important;
+}
+
+.content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+
+/* .buttonBlock span {
+  text-align: right;
+  position: relative;
+  width: 8.93px;
+  height: 18.5px;
+  right: 18.07px;
+
+  border: 5px solid #fdba2f;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+} */
+.span-arrow i {
+  text-align: right;
+  position: absolute;
+  font-size: 53px;
+  right: 18.07px;
+  color: rgb(253, 186, 47);
+  top: 5px;
+}
+
+.span-plus i {
+  font-size: 20px;
+  text-align: right;
+  position: absolute;
+  right: 27px;
+  color: rgb(253, 186, 47);
+}
+.image-spacing1 {
+  z-index: 1;
+  line-height: 59px;
+  left: 2%;
+  position: relative;
+  top: -31px;
+  width: 40%;
+  height: 20%;
+}
+
+@media screen and (max-width: 440px) {
+  
+  .faq-section {
+    margin-top: -17%;
+    margin-bottom: 9%;
+  }
+}

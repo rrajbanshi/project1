@@ -1,0 +1,400 @@
+.how_it_started_img1 {
+  position: relative;
+  width: 123.66px;
+  height: 127.78px;
+  left: 13px;
+  top: 19px;
+}
+.numbers {
+  position: relative;
+  top: 10px;
+  left: -32px;
+  font-family: "Michroma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29.6775px;
+  line-height: 35px;
+  letter-spacing: -0.0328em;
+  color: #fdba2f;
+}
+.arrow {
+  position: relative;
+
+  height: 89px;
+  left: 3px;
+  top: 0;
+}
+.headings {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+
+  letter-spacing: -0.0328em;
+
+  color: #ffffff;
+}
+.content {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  letter-spacing: -0.0428em;
+
+  color: #f2f2f2;
+}
+
+.discription {
+  position: relative;
+  top: 20px;
+  left: -16px;
+}
+.numbers_10 {
+  position: relative;
+  top: 10px;
+  left: -23px;
+  font-family: "Michroma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29.6775px;
+  line-height: 35px;
+  letter-spacing: -0.0328em;
+  color: #fdba2f;
+}
+h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 63px;
+  letter-spacing: -0.0528em;
+  color: #ffffff;
+}
+.how_it_works {
+  background-image: url(./../../images/Rectangle.png);
+
+  background-repeat: no-repeat;
+  background-position: 0% 88%;
+  background-size: 100%;
+  height: 5px;
+}
+
+@media only screen and (max-width: 440px) {
+
+  .img-mobile-10{
+    position: relative;
+    width: 70.66px;
+    height: 70.78px;
+    top: 3px;
+    left: -21px;
+  }
+  .img-mobile-1 {
+    position: relative;
+    width: 70.66px;
+    height: 70.78px;
+    top: 19px;
+    left: -13px;
+  
+  }
+  .arrow-mobile{
+    position: absolute;
+    height: 76px;
+    top: 25px;
+
+  }
+  .number-mobile {
+    position: relative;
+    width: 46px;
+    height: 24px;
+    left: -28px;
+    top: -3px;
+    font-family: 'Michroma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.0328em;
+    color: #FDBA2F;
+  }
+  .arrow {
+    position: relative;
+    height: 89px;
+    left: 156px;
+    top: -137px;
+  }
+  .headings {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.0328em;
+    color: #ffffff;
+  }
+  .content-1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 132px;
+    height: 48px;
+  }
+
+  .discription {
+    position: relative;
+    top: -249px;
+    left: 188px;
+  }
+  .numbers_10 {
+    position: relative;
+    top: 10px;
+    left: -23px;
+    font-family: "Michroma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.6775px;
+    line-height: 35px;
+    letter-spacing: -0.0328em;
+    color: #fdba2f;
+  }
+
+  .how_it_works {
+    background-image: url(./../../images/Rectangle.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0% 88%;
+    background-size: 100%;
+    height: 5px;
+  }
+  h1 {
+    position: relative;
+    top: -10px;
+    left: -58px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 27px;
+    letter-spacing: -0.0528em;
+    color: #ffffff;
+  }
+  .content-1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 132px;
+    height: 48px;
+  }
+  .content-2 {
+    width: 167px;
+    height: 32px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+  }
+  .content-3 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 167px;
+    height: 32px;
+  }
+  .content-4 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 167px;
+    height: 48px;
+  }
+  .content-5 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 188px;
+    height: 32px;
+  }
+  .content-6 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 187px;
+    height: 32px;
+  }
+
+  .content-7 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 187px;
+    height: 48px;
+  }
+  .content-8 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 179px;
+    height: 32px;
+  }
+  .content-9 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 183px;
+    height: 32px;
+  }
+  .content-10 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    letter-spacing: -0.0428em;
+
+    color: #8a8383;
+    width: 183px;
+    height: 48px;
+  }
+  .numbers_10 {
+    position: relative;
+    top: -189px;
+    left: 128px;
+    font-family: "Michroma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.6775px;
+    line-height: 35px;
+    letter-spacing: -0.0328em;
+    color: #fdba2f;
+  }
+  .img10{
+    position: relative;
+    top: -107px;
+    left: 54px;
+   
+  }
+  .how-it-all-started-1 {
+    position: relative;
+    top: 56px;
+    left: 0px;
+  }
+  .how-it-all-started-2 {
+    position: relative;
+    top: -134px;
+    left: 0px;
+  }
+  .how-it-all-started-3 {
+    position: relative;
+    top: -305px;
+    left: 0px;
+  }
+  .how-it-all-started-4 {
+    position: relative;
+    top: -474px;
+    left: 0px;
+  }
+  .how-it-all-started-5 {
+    position: relative;
+    top: -668px;
+    left: 0px;
+  }
+  .how-it-all-started-6 {
+    position: relative;
+    top: -829px;
+    left: 0px;
+  }
+  .how-it-all-started-7 {
+    position: relative;
+    top: -1028px;
+    left: 0px;  
+  }
+  .how-it-all-started-8 {
+    position: relative;
+    top: -1218px;
+    left: 0px;
+  }
+  .how-it-all-started-9 {
+    position: relative;
+    top: -1417px;
+    left: 0px;
+  }
+  .how-it-all-started-10 {
+    position: relative;
+    top: -1551px;
+    left: 0px;
+  }
+}

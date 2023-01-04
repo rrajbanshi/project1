@@ -1,0 +1,255 @@
+@media screen and (min-width: 992px) {
+  ::-webkit-scrollbar {
+  }
+  html {
+    overflow: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  .main-carousal {
+    background-color: black;
+  }
+
+  .follow-us-header {
+    width: 597px;
+    height: 67px;
+    margin-bottom: 60px;
+  }
+  .follow-us-header p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 21px;
+  }
+  .image-spacing2 {
+    z-index: 1;
+    line-height: 59px;
+    left: 54%;
+    position: relative;
+    top: -31px;
+    width: 53%;
+    height: 20%;
+  }
+
+  .media-scroller {
+    --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 33%;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  .media-scroller--with-groups {
+    grid-auto-columns: 80%;
+  }
+
+  .media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+  }
+
+  .media-element {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+
+    width: 441px;
+    height: 442px;
+  }
+
+  .media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 9 / 8;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+
+  .snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+  }
+
+  .snaps-inline > * {
+    scroll-snap-align: start;
+  }
+
+  .container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+  }
+
+  .flow {
+    display: grid;
+    gap: var(--size-3);
+  }
+
+  .page-header {
+    padding-block: var(--size-9);
+    margin-block-end: var(--size-9);
+    background: var(--gradient-16);
+    color: var(--gray-0);
+    box-shadow: var(--shadow-2);
+  }
+
+  .page-title {
+    font-size: var(--font-size-fluid-3);
+  }
+
+  .page-subtitle {
+    font-size: var(--font-size-fluid-1);
+  }
+
+  .section-title {
+    padding-inline-start: var(--size-6);
+    margin-block: var(--size-9) var(--size-3);
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .media-scroller {
+    --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 101% !important;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    overflow: hidden !important;
+  }
+
+  .media-scroller--with-groups {
+    grid-auto-columns: 80%;
+  }
+
+  /* ????????? */
+  ::-webkit-scrollbar {
+  }
+  html {
+    overflow: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  .main-carousal {
+    background-color: black;
+  }
+
+  .follow-us-header {
+    width: 309px;
+    height: 24px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .follow-us-header p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0428em;
+    color: #ffffff;
+  }
+  .image-spacing2 {
+    width: 99%;
+    margin-top: -16%;
+  }
+  .media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+  }
+
+  .media-element {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+
+    width: 441px;
+    height: 442px;
+  }
+
+  .media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 9 / 8;
+    object-fit: fill;
+    width: 85% !important;
+    height: 90% !important;
+  }
+
+  .snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+  }
+
+  .snaps-inline > * {
+    scroll-snap-align: start;
+  }
+
+  .container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+  }
+
+  .flow {
+    display: grid;
+    gap: var(--size-3);
+  }
+
+  .page-header {
+    padding-block: var(--size-9);
+    margin-block-end: var(--size-9);
+    background: var(--gradient-16);
+    color: var(--gray-0);
+    box-shadow: var(--shadow-2);
+  }
+
+  .page-title {
+    font-size: var(--font-size-fluid-3);
+  }
+
+  .page-subtitle {
+    font-size: var(--font-size-fluid-1);
+  }
+
+  .section-title {
+    padding-inline-start: var(--size-6);
+    margin-block: var(--size-9) var(--size-3);
+  }
+  .d-block {
+    /* display: inline !important;
+    overflow: hidden !important; */
+  }
+  .main-carousal {
+    width: 100% !important;
+    margin: auto;
+  }
+}

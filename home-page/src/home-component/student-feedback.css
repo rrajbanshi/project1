@@ -1,0 +1,622 @@
+@media screen and (min-width: 992px) {
+  .hard-to-believe {
+    width: 355px;
+    height: 43px;
+  }
+  .student-name-section {
+    width: 223px;
+    height: 36px;
+  }
+  .student-name-section p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.0428em;
+    color: #fff !important;
+  }
+  .student-position {
+    width: 235px;
+    height: 24px;
+  }
+  .student-position p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .student-hike {
+    width: 100px;
+    height: 50px;
+  }
+  .student-hike h2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    /* or 69% */
+
+    letter-spacing: -0.0428em;
+
+    color: #fdba2f;
+  }
+  .student-profile-pic {
+    width: 84px;
+    height: 84px;
+  }
+  .student-profile-pic img {
+    width: 161.87px !important;
+    height: 83.24px !important;
+  }
+  .student-content {
+    width: 464px;
+    height: 96px;
+    margin: auto;
+  }
+  .student-content p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: -0.0328em;
+
+    color: #f2f2f2;
+  }
+  .student-hike p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .before-futurense {
+    width: 171px;
+    height: 20px;
+  }
+  .before-futurense p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .hard-to-believe p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* or 100% */
+
+    letter-spacing: -0.0628em;
+
+    color: #fdba2f;
+  }
+  .hear-it-from {
+    width: 584px;
+    height: 66px;
+  }
+  .hear-it-from p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0628em;
+    color: #ffffff;
+  }
+  .GodFather {
+    margin-top: 165px;
+    width: 1164px;
+    height: 112.35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .GodFather p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51.5696px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -0.0728em;
+    color: #ffffff;
+  }
+  .after-futurense {
+    width: 174px;
+    height: 20px;
+  }
+  .after-futurense p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.0428em;
+    color: #d9d9d9;
+  }
+  .student-dot {
+    width: 126px;
+    height: 0px;
+    left: 192px;
+    top: 287px;
+
+    border: 1px dashed #fdba2f;
+  }
+  .GodFather span {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51.5696px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -0.0728em;
+    color: #fdba2f;
+  }
+  .GodFather-button {
+    width: 257px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background: rgba(204, 204, 204, 0.5);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 54px;
+    gap: 10px;
+  }
+
+  .GodFather-button a {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.06em;
+
+    color: #ffffff !important;
+  }
+
+  .feedback-carousal-student {
+    height: 355px;
+    /* border: 1px dashed #fdba2f; */
+  }
+  .befor_carousal {
+    height: 355px;
+    border: 1px dashed #fdba2f !important;
+  }
+
+  /* .partner-feedback-main {
+  
+    } */
+  /* media scroller */
+  .media-scroller-partner-student {
+    --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  .media-scroller-part--with-groups {
+    grid-auto-columns: 80%;
+    /* border: 1 px solid red; */
+  }
+
+  .media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+  }
+
+  .media-element-partner-student {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+    width: 96%;
+    height: 287.63px;
+    border: 2px solid red;
+    /* margin-left: 8%; */
+    /* margin-top: 6%;
+  }
+
+  .media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 9 / 8;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid #ffffff; */
+  }
+
+  .snaps-inline-feedback-student {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+    margin: 35px;
+  }
+
+  .snaps-inline-feedback-student > * {
+    scroll-snap-align: start;
+  }
+
+  .container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+  }
+
+  .flow {
+    display: grid;
+    gap: var(--size-3);
+  }
+
+  .page-header {
+    padding-block: var(--size-9);
+    margin-block-end: var(--size-9);
+    background: var(--gradient-16);
+    color: var(--gray-0);
+    box-shadow: var(--shadow-2);
+  }
+
+  .page-title {
+    font-size: var(--font-size-fluid-3);
+  }
+
+  .page-subtitle {
+    font-size: var(--font-size-fluid-1);
+  }
+
+  .section-title {
+    padding-inline-start: var(--size-6);
+    margin-block: var(--size-9) var(--size-3);
+  }
+
+  .client-testimonial {
+    width: 360px;
+    height: 41px;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .client-testimonial p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.0528em;
+    color: #d9d9d9;
+  }
+
+  .image-spacing-partner {
+    z-index: 1;
+    line-height: 59px;
+    position: relative;
+    top: -39px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .hard-to-believe {
+    width: 344px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .hard-to-believe-para1 p {
+    font-family: "DM Sans" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 26px !important;
+    margin-left: 24%;
+    /* or 108% */
+
+    display: flex !important;
+    /* align-items: center !important; */
+    text-align: center !important;
+    /* letter-spacing: -0.0628em; */
+
+    color: #fdba2f !important;
+    text-align: center !important;
+  }
+  .hard-to-believe-para2 p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* or 108% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* letter-spacing: -0.0828em; */
+
+    color: #ffffff;
+  }
+
+  .student-name-section {
+    width: 100%;
+    height: 32px;
+  }
+  .student-name-section p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.0428em;
+
+    color: #ffffff !important;
+  }
+  .student-position {
+    width: 153.66px;
+    height: 16px;
+  }
+  .student-position p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.4616px;
+    line-height: 16px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .student-hike {
+    width: 100%;
+    height: 32.69px;
+    margin-top: 21%;
+  }
+  .student-hike h2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 16px;
+    /* or 69% */
+
+    letter-spacing: -0.0428em;
+
+    color: #fdba2f;
+  }
+  .student-profile-pic {
+    width: 54.92px;
+    height: 54.92px;
+  }
+  .student-profile-pic img {
+    width: 54px !important;
+    height: 54px !important;
+  }
+  .student-content {
+    width: 305px;
+    height: 75px;
+    margin: auto;
+  }
+  .student-content p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+
+    letter-spacing: -0.0328em;
+
+    color: #f2f2f2;
+  }
+  .student-hike p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.4616px;
+    line-height: 16px;
+    /* or 156% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .before-futurense {
+    width: 129px;
+    height: 14px;
+  }
+  .before-futurense p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* or 109% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+  .student-dot {
+    border: 0.653853px dashed #fdba2f;
+    width: 90%;
+    height: 0;
+  }
+  .after-futurense {
+    width: 127px;
+    height: 14px;
+  }
+  .after-futurense p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    /* or 109% */
+
+    letter-spacing: -0.0428em;
+
+    color: #d9d9d9;
+  }
+
+  .feedback-carousal-student {
+    height: 188px;
+  }
+  /* media scroller */
+  .media-scroller-partner-student {
+    --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 110%;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  .media-scroller-part--with-groups {
+    grid-auto-columns: 70%;
+  }
+
+  .media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+  }
+  .student-name-section {
+    width: 223px;
+    height: 36px;
+  }
+  .student-name-section p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.0428em;
+    color: #fff !important;
+  }
+  .media-element-partner-student {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+    width: 319.46px;
+    height: 196.84px;
+    border: 2px solid red;
+  }
+
+  .media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 9 / 8;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+
+  .snaps-inline-feedback-student {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+    margin: 35px;
+  }
+
+  .snaps-inline-feedback-student > * {
+    scroll-snap-align: start;
+  }
+
+  .container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+  }
+
+  .flow {
+    display: grid;
+    gap: var(--size-3);
+  }
+
+  .page-header {
+    padding-block: var(--size-9);
+    margin-block-end: var(--size-9);
+    background: var(--gradient-16);
+    color: var(--gray-0);
+    box-shadow: var(--shadow-2);
+  }
+
+  .page-title {
+    font-size: var(--font-size-fluid-3);
+  }
+
+  .page-subtitle {
+    font-size: var(--font-size-fluid-1);
+  }
+
+  .section-title {
+    padding-inline-start: var(--size-6);
+    margin-block: var(--size-9) var(--size-3);
+  }
+
+  .client-testimonial {
+    width: 360px;
+    height: 41px;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .client-testimonial p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.0528em;
+    color: #d9d9d9;
+  }
+
+  .image-spacing-partner {
+    z-index: 1;
+    line-height: 59px;
+    position: relative;
+    top: -39px;
+  }
+}

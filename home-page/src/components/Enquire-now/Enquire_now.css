@@ -1,0 +1,103 @@
+/* input {
+    border:none;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 10px;
+    outline: none;
+ } */
+input {
+  color: #ffffff;
+}
+/* dropdown */
+.hire-talent {
+  position: relative;
+  width: 297.44px;
+  height: 41.36px;
+  left: -177px;
+  top: -8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49.28px;
+  line-height: 49px;
+  letter-spacing: -0.0528em;
+  color: #ffffff;
+}
+.hire_talent_line {
+  position: relative;
+  width: 149px;
+  height: 11px;
+
+  z-index: -1;
+}
+.popup {
+  background-color: #202020;
+  color: white;
+}
+.form-group select {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1.76px solid #fdba2f;
+  border-radius: 3.52px;
+}
+.form-group textarea {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  border: 1.76px solid #fdba2f;
+  border-radius: 3.52px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.button {
+  color: white;
+  background-color: #fdba2f;
+}
+/* input */
+.form-group input {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1.76px solid #fdba2f;
+  border-radius: 3.52px;
+}
+.form-control:focus {
+  outline: none;
+  background-color: black;
+  box-shadow: none;
+  background: transparent;
+  border-bottom: 1.76px solid #fdba2f;
+}
+/* drop-down */
+option {
+  background-color: black;
+  box-shadow: none;
+  color: aliceblue;
+}
+/* textarea */
+.text_area:focus {
+  border: 1.76px solid #fdba2f;
+}
+/* .btn{
+    font-weight: bold;
+    background: rgba(204, 204, 204, 0.5);
+}
+.btn:hover{
+    font-weight: bold;
+    color: #202020;
+    background-color: #FDBA2F;
+} */
+.btn-block-button {
+  font-weight: bold;
+  background: rgba(204, 204, 204, 0.5);
+}
+.btn-block-button:hover {
+  font-weight: bold;
+  color: #202020;
+  background-color: #fdba2f;
+}
+
+.validation {
+  color: red;
+}
