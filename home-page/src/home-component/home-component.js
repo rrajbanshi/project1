@@ -12,6 +12,7 @@ import HowItWorks from "../components/How_it_works/How_it_Works";
 import HowItGrowth from "../components/growth/growth";
 import { useState, useEffect } from "react";
 import EquireNow from "../components/Enquire-now/Enquire_now";
+import BottomCounter from "../components/Bottom_counter/BottomCounter";
 import UpSkill from "../home-component/upskill";
 function HomeComponent() {
   const [modal, setmodal] = useState(false);
@@ -58,6 +59,7 @@ function HomeComponent() {
       {/* <UpSkill /> */}
 
       <StudentFeedback />
+      <BottomCounter />
       <PartnerFeedback />
       <InstagramCarousal />
       <Faqs />
