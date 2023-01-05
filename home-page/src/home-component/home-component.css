@@ -1,0 +1,47 @@
+.body {
+  overflow: hidden;
+  /* background-color: black !important; */
+}
+
+/* p,
+h1 {
+  
+  margin-left: 5%;
+  margin-right: 5%;
+} */
+
+.button-close {
+  background-color: #202020;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 10px;
+  height: 10px;
+  left: 767px;
+  top: -3px;
+}
+
+.btn-hire {
+  position: fixed;
+  right: -3%;
+  bottom: 193px;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  height: 41px;
+  width: 115px;
+  color: white;
+  font-weight: bold;
+  background: rgba(204, 204, 204, 0.5);
+}
+.btn-apply {
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  right: -2%;
+  width: 92px;
+  bottom: 84px;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  background: rgba(204, 204, 204, 0.5);
+}
