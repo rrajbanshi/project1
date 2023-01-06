@@ -136,11 +136,10 @@
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
-    /* or 111% */
-
     letter-spacing: -3.53077px;
-
     color: #f2f2f2;
+    position: relative;
+    left: 0px;
   }
   .words {
     color: #fdba2f;

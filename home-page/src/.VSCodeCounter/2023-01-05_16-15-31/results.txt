@@ -1,0 +1,94 @@
+Date : 2023-01-05 16:15:31
+Directory : c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src
+Total : 52 files,  5560 codes, 347 comments, 435 blanks, all 6342 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| CSS              |         21 |      2,810 |        214 |        283 |      3,307 |
+| JavaScript       |         24 |      2,560 |        131 |        143 |      2,834 |
+| JavaScript React |          1 |        138 |          2 |          4 |        144 |
+| XML              |          6 |         52 |          0 |          5 |         57 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                        |         52 |      5,560 |        347 |        435 |      6,342 |
+| . (Files)                                                                                                                |          8 |        101 |          4 |         16 |        121 |
+| components                                                                                                               |         22 |      2,626 |        217 |        207 |      3,050 |
+| components\Bottom_counter                                                                                                |          2 |        441 |         27 |         28 |        496 |
+| components\DemoForm                                                                                                      |          2 |         18 |          2 |         10 |         30 |
+| components\Enquire-now                                                                                                   |          2 |        238 |         25 |          9 |        272 |
+| components\Footer                                                                                                        |          2 |        241 |          2 |         10 |        253 |
+| components\How_it_works                                                                                                  |          2 |        670 |         11 |         46 |        727 |
+| components\Navbar                                                                                                        |          2 |         98 |         55 |         11 |        164 |
+| components\Section_3                                                                                                     |          2 |         51 |         27 |         17 |         95 |
+| components\growth                                                                                                        |          2 |        193 |          3 |         19 |        215 |
+| components\home                                                                                                          |          2 |         20 |          0 |          6 |         26 |
+| components\top_counter                                                                                                   |          2 |        437 |         27 |         39 |        503 |
+| components\video-section                                                                                                 |          2 |        219 |         38 |         12 |        269 |
+| home-component                                                                                                           |         17 |      2,782 |        126 |        207 |      3,115 |
+| images                                                                                                                   |          5 |         51 |          0 |          5 |         56 |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                                 | language         | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\App.css                                     | CSS              |         36 |          0 |          5 |         41 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\App.js                                      | JavaScript       |         12 |          0 |          2 |         14 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\App.test.js                                 | JavaScript       |          7 |          0 |          2 |          9 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Bottom_counter\BottomCounter.css | CSS              |        275 |         16 |         13 |        304 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Bottom_counter\BottomCounter.js  | JavaScript       |        166 |         11 |         15 |        192 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\DemoForm\Demo.css                | CSS              |          0 |          0 |          1 |          1 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\DemoForm\Demo.js                 | JavaScript       |         18 |          2 |          9 |         29 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Enquire-now\Enquire_now.css      | CSS              |         82 |         19 |          3 |        104 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Enquire-now\Enquire_now.js       | JavaScript       |        156 |          6 |          6 |        168 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Footer\Footer.css                | CSS              |         71 |          2 |          6 |         79 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Footer\Footer.js                 | JavaScript       |        170 |          0 |          4 |        174 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\How_it_works\How_it_Works.css    | CSS              |        352 |         11 |         38 |        401 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\How_it_works\How_it_Works.js     | JavaScript       |        318 |          0 |          8 |        326 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Navbar\Navbar.css                | CSS              |         25 |          0 |          6 |         31 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Navbar\Navbar.js                 | JavaScript       |         73 |         55 |          5 |        133 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Section_3\Section_3.css          | CSS              |          8 |          0 |          2 |         10 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\Section_3\Section_3.js           | JavaScript       |         43 |         27 |         15 |         85 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\growth\growth.css                | CSS              |        156 |          2 |         17 |        175 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\growth\growth.js                 | JavaScript       |         37 |          1 |          2 |         40 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\home\Home.js                     | JavaScript       |         20 |          0 |          5 |         25 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\home\home.css                    | CSS              |          0 |          0 |          1 |          1 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\top_counter\TopCounter.css       | CSS              |        275 |         16 |         13 |        304 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\top_counter\TopCounter.js        | JavaScript       |        162 |         11 |         26 |        199 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\video-section\Video.css          | CSS              |        175 |         35 |          9 |        219 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\components\video-section\Video.js           | JavaScript       |         44 |          3 |          3 |         50 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\Faqs.css                     | CSS              |         95 |         12 |          8 |        115 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\Faqs.jsx                     | JavaScript React |        138 |          2 |          4 |        144 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\Upskill.css                  | CSS              |          0 |          0 |          1 |          1 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\dummy.js                     | JavaScript       |        249 |          0 |          1 |        250 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\footer.css                   | CSS              |         71 |          2 |          7 |         80 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\footer.js                    | JavaScript       |        191 |          0 |          2 |        193 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\home-component.css           | CSS              |         37 |          7 |          4 |         48 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\home-component.js            | JavaScript       |         65 |          0 |          7 |         72 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\instagram-carousal.css       | CSS              |        218 |          3 |         35 |        256 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\instagram-carousal.js        | JavaScript       |        109 |          0 |          5 |        114 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\navbar.css                   | CSS              |          9 |          0 |          2 |         11 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\navbar.js                    | JavaScript       |         70 |          0 |          3 |         73 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\partner-feedback.css         | CSS              |        390 |         50 |         45 |        485 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\partner-feedback.js          | JavaScript       |        239 |          0 |          4 |        243 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\student-feedback.css         | CSS              |        523 |         39 |         65 |        627 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\student-feedback.js          | JavaScript       |        331 |         11 |         12 |        354 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\home-component\upskill.js                   | JavaScript       |         47 |          0 |          2 |         49 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\images\Rectangle.svg                        | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\images\follow-us-1.svg                      | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\images\follow-us-2.svg                      | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\images\follow-us-3.svg                      | XML              |          9 |          0 |          1 |         10 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\images\profile-pic.svg                      | XML              |         15 |          0 |          1 |         16 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\index.css                                   | CSS              |         12 |          0 |          2 |         14 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\index.js                                    | JavaScript       |         20 |          0 |          2 |         22 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\logo.svg                                    | XML              |          1 |          0 |          0 |          1 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\reportWebVitals.js                          | JavaScript       |         12 |          0 |          2 |         14 |
+| c:\Users\Miles\Desktop\JAVA\web-dev\mygithub-projects\projects\home-page\src\setupTests.js                               | JavaScript       |          1 |          4 |          1 |          6 |
+| Total                                                                                                                    |                  |      5,560 |        347 |        435 |      6,342 |
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
